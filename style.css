@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*
+https://fonts.google.com/specimen/Roboto
+https://fontawesome.com/v5/search
+
+*/
+
+body {
+
+	font-family: 'Roboto', sans-serif;
+	color:#000;
+	
+}
+
+a {
+	color:#000;
+	text-decoration: none;
+}
+a:hover {
+	color:#000;
+	text-decoration: underline;
+}
+
+
+/* Helpers  */ 
+.text-center {
+	text-align: center;
+}
+
+/* Enlace BTN primario */
+.btn-primario {
+	background-color: #000;
+	color:#FFF;
+	padding:10px 20px 10px 20px;
+	display: inline-block;
+
+
+}
+.btn-primario:hover {
+	color:#FFF;
+	background-color: #666;
+	text-decoration: none;
+}
+
+/* Enlace BTN secundario */
+.btn-secundario {
+
+}
+
+/* Enlace BTN resaltado */
+.btn-resaltado {
+
+}
+
+
+/* Titulos de las secciones */ 
+.resaltado {
+	background-color:#f5df4e !important;
+	display: inline-block;
+	font-size: 0.9rem;
+	font-weight: normal;
+	padding: 3px 6px;
+
+	margin: 0px;
+
+}
+.titular {
+	font-weight: bold;
+	font-size: 2.5rem !important;
+	margin: 0px;
+}
+
+nav {
+
+}
+
+nav  ul {
+	list-style: outside none;
+}
+
+nav  ul li {
+	display: inline-block;
+	margin: 0px 10px;
+
+}
+
+nav  ul li a {
+	display: inline-block;
+	margin: 0px 10px;
+
+}
+
+.flex-container-CallumSmith{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+}
+.flex-container-CallumSmith div{
+	margin: 30px;
+}
+
+.presentation{
+	text-align: left;
+	width: 65%;
+}
+
+.flex-container-contact{
+	display: flex;
+	justify-content: center;
+}
+.flex-container-contact li{
+	list-style: none;
+	display: inline-block;
+	width: 22%;
+	font-size: 20px;
+}
+
+
+.flex-container-categorias{
+	padding: 100px;
+	flex-wrap: wrap;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+}
+
+#what{
+	background-color: #f8f9fa;;
+}
+
+.flex-container-categorias article{
+	display: inline-block;
+	width: 30%;
+	margin: 10px 15px;
+	text-align: center;
+	box-sizing: border-box;
+    position: relative;
+	
+}
+
+.flex-container-categorias article i{
+	color: #f5df4e;
+	font-size: 50px;
+}
+
+.flex-container-categorias article h2{
+	font-size: 25px !important;
+}
+
+.flex-container-categorias article p{
+	text-align: initial;
+	color: #6c757d !important;
+	line-height: 1.8;
+	font-size: 18px;
+}
+
+.flex-container-resumen{
+	display:flex;
+	justify-content: center;
+}
+
+.flex-container-resumen div{
+	margin-right: 15px;
+	font-size: 18px;
+}
+
+.educacion, .experiencia{
+	border-left: solid #f5df4e;
+	padding-left: 15px;
+}
