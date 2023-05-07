@@ -203,6 +203,22 @@ nav  ul li a {
 	margin: 0px 200px;
 }
 
+.fw-500 {
+    font-weight: 500 !important;
+}
+
+.text-start {
+    text-align: left!important;
+}
+
+.progress-sm {
+    height: 0.5rem !important;
+}
+
+.progress-bar{
+    background-color: #f5df4e;
+}
+
 .flex-container-portfolio{
 	display: flex;
 	justify-content: center;
