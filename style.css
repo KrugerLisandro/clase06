@@ -45,14 +45,33 @@ a:hover {
 
 /* Enlace BTN secundario */
 .btn-secundario {
+	background-color: #FFF;
+	border: solid 2px #000;
+	color: #000;
+	padding:10px 20px 10px 20px;
+	display: inline-block;
+}
 
+.btn-secundario:hover {
+	color:#FFF;
+	background-color: #000;
+	text-decoration: none;
 }
 
 /* Enlace BTN resaltado */
-.btn-resaltado {
-
+.btn-terciario{
+	display: inline-block;
+	background-color: #f5df4e;
+	color: #000;
+	font-size: 20px;
+	padding:10px 20px 10px 20px;
+	
 }
 
+.btn-terciario:hover{
+	background-color: #eed00e;
+	text-decoration: none;
+}
 
 /* Titulos de las secciones */ 
 .resaltado {
@@ -61,9 +80,7 @@ a:hover {
 	font-size: 0.9rem;
 	font-weight: normal;
 	padding: 3px 6px;
-
 	margin: 0px;
-
 }
 .titular {
 	font-weight: bold;
@@ -72,7 +89,7 @@ a:hover {
 }
 
 nav {
-
+	text-align: center;
 }
 
 nav  ul {
@@ -156,6 +173,10 @@ nav  ul li a {
 	font-size: 18px;
 }
 
+#resume{
+	margin: 25px;
+}
+
 .flex-container-resumen{
 	display:flex;
 	justify-content: center;
@@ -166,7 +187,45 @@ nav  ul li a {
 	font-size: 18px;
 }
 
-.educacion, .experiencia{
+.educacion{
 	border-left: solid #f5df4e;
 	padding-left: 15px;
+}
+
+.experiencia{
+	border-left: solid #f5df4e;
+	padding-left: 15px;
+}
+
+.Skills{
+	display: inline-block;
+	font-size: 20px;
+	margin: 0px 200px;
+}
+
+.flex-container-portfolio{
+	display: flex;
+	justify-content: center;
+}
+
+.flex-container-portfolio img{
+	margin: 10px;
+	width: 400px;
+  	height: 400px;
+}
+
+#hireme{
+	color: #fff;
+	background-image: url('laptop.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+}
+
+#hireme div{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 80px;
 }
