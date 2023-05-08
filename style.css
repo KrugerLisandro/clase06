@@ -216,7 +216,12 @@ nav  ul li a {
 }
 
 .progress-bar{
-    background-color: #f5df4e;
+	background-color: #f5df4e;
+}
+
+.a-portfolio:hover{
+	border-bottom: 2px solid #f5df4e;  
+	text-decoration: none;
 }
 
 .flex-container-portfolio{
